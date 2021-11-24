@@ -1,0 +1,10 @@
+{
+    "recommendations": [
+        "editorconfig.editorconfig",
+        "yzhang.markdown-all-in-one",
+        "bierner.markdown-preview-github-styles",
+        "darkriszty.markdown-table-prettify",
+        "davidanson.vscode-markdownlint",
+        "bierner.markdown-emoji"
+    ]
+}

@@ -1,0 +1,10 @@
+{
+    "editor.formatOnSave": true,
+    "editor.formatOnSaveMode": "file",
+    "[markdown]": {
+        "editor.defaultFormatter": "darkriszty.markdown-table-prettify",
+        "editor.wordWrap": "bounded",
+        "editor.wordWrapColumn": 1000,
+    },
+    "go.testFlags": []
+}
