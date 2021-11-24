@@ -5,6 +5,22 @@
 ![Progress](https://img.shields.io/badge/progess-1%20%2F%202082-sucess)&nbsp;
 [![License](https://img.shields.io/badge/license-MIT-a31f34)](./LICENSE)
 
+## Test
+
+### Go
+
+Run test of all problems:
+
+```bash
+go test ./problem/*
+```
+
+Run test by the specific problem:
+
+```bash
+go test ./problem/0070
+```
+
 ## Problems
 
 | #      | Title           | Solution      | Difficulty | Note                |
@@ -16,19 +32,3 @@
 [0070]: https://leetcode.com/problems/climbing-stairs
 [0070_Note]: ./problem/0070/README.md
 [0070_Go]: ./problem/0070/climbing_stairs.go
-
-## Test
-
-### Go
-
-Run all test of Go:
-
-```bash
-go test ./problem/*
-```
-
-Run by problem:
-
-```bash
-go test ./problem/0070
-```
