@@ -1,5 +1,6 @@
 package solution
 
+// Time: O(n)
 func ClimbStairs(n int) int {
 	a := 0
 	b := 1

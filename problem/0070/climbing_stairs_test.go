@@ -40,10 +40,9 @@ func TestClimbStairs(t *testing.T) {
 
 	for _, test := range tests {
 		result, n := test.result, test.params.n
-		// fmt.Printf("Input: %v, Output: %v\n", n, climbStairs(n))
 
 		if ClimbStairs(n) != result {
-			t.Errorf("[Wrong Answer] Input: %v, Output: %v, Expected: %v\n", n, ClimbStairs(n), result)
+			t.Errorf("\n[Wrong Answer]\nInput: %v\nOutput: %v\nExpected: %v\n", n, ClimbStairs(n), result)
 		}
 	}
 }
