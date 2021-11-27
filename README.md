@@ -2,7 +2,7 @@
 
 ![Go](https://img.shields.io/badge/language-Go-007d9c)&nbsp;
 ![C++](https://img.shields.io/badge/language-C++-007d9c)&nbsp;
-![Progress](https://img.shields.io/badge/progess-4%20%2F%202082-sucess)&nbsp;
+![Progress](https://img.shields.io/badge/progess-5%20%2F%202082-sucess)&nbsp;
 [![License](https://img.shields.io/badge/license-MIT-a31f34)](./LICENSE)
 
 ## Test
@@ -26,9 +26,10 @@ go test ./problem/0070
 | #      | Title                              | Solution        | Difficulty | Note                |
 |--------|------------------------------------|-----------------|------------|---------------------|
 | [0001] | Two Sum                            | [Go][0001_Go]   | Easy       | [:memo:][0001_Note] |
+| [0038] | Count and Say                      | [C++][0038_C++] | Medium     | [:memo:][0038_Note] |
 | [0070] | Climbing Stairs                    | [Go][0070_Go]   | Easy       | [:memo:][0070_Note] |
 | [0125] | Valid Palindrome                   | [C++][0125_C++] | Easy       | [:memo:][0125_Note] |
-| [0387] | First Unique Character in a String | [C++][0125_C++] | Easy       | [:memo:][0387_Note] |
+| [0387] | First Unique Character in a String | [C++][0387_C++] | Easy       | [:memo:][0387_Note] |
 
 [**:arrow_up: Back to Top**](#leetcode)
 
@@ -51,3 +52,8 @@ go test ./problem/0070
 [0387]: https://leetcode.com/problems/first-unique-character-in-a-string
 [0387_Note]: ./problem/0387/README.md
 [0387_C++]: ./problem/0387/first_unique_character_in_a_string.cpp
+
+<!-- 0038 -->
+[0038]: https://leetcode.com/problems/count-and-say
+[0038_Note]: ./problem/0038/README.md
+[0038_C++]: ./problem/0038/count_and_say.cpp
