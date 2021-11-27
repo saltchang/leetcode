@@ -1,12 +1,11 @@
 package solution
 
 import (
+	"fmt"
 	"testing"
-
-	"github.com/saltchang/leetcode/helper"
 )
 
-func TestTwoSum(t *testing.T) {
+func Test_twoSum(t *testing.T) {
 
 	type params struct {
 		nums   []int
@@ -15,7 +14,7 @@ func TestTwoSum(t *testing.T) {
 
 	type testing struct {
 		params
-		result []int
+		answer []int
 	}
 
 	tests := []testing{
@@ -41,11 +40,19 @@ func TestTwoSum(t *testing.T) {
 		},
 	}
 
-	for _, test := range tests {
-		result, nums, target := test.result, test.params.nums, test.params.target
+	fmt.Printf("\n=== Problem 0001 ===\n")
 
-		if !helper.ArrayEquals(twoSum(nums, target), result) {
-			t.Errorf("\n[Wrong Answer]\nInput: %v %v\nOutput: %v\nExpected: %v\n", nums, target, twoSum(nums, target), result)
-		}
+	for _, test := range tests {
+		answer, nums, target := test.answer, test.params.nums, test.params.target
+
+		fmt.Printf(
+			"\nInput    : %v  %v\nOutput   : %v\nExpected : %v\n",
+			nums,
+			target,
+			twoSum(nums, target),
+			answer,
+		)
 	}
+
+	fmt.Printf("\n")
 }

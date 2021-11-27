@@ -1,10 +1,11 @@
 package solution
 
 import (
+	"fmt"
 	"testing"
 )
 
-func TestClimbStairs(t *testing.T) {
+func Test_climbStairs(t *testing.T) {
 
 	type params struct {
 		n int
@@ -12,7 +13,7 @@ func TestClimbStairs(t *testing.T) {
 
 	type testing struct {
 		params
-		result int
+		answer int
 	}
 
 	tests := []testing{
@@ -38,11 +39,18 @@ func TestClimbStairs(t *testing.T) {
 		},
 	}
 
-	for _, test := range tests {
-		result, n := test.result, test.params.n
+	fmt.Printf("\n=== Problem 0070 ===\n")
 
-		if ClimbStairs(n) != result {
-			t.Errorf("\n[Wrong Answer]\nInput: %v\nOutput: %v\nExpected: %v\n", n, ClimbStairs(n), result)
-		}
+	for _, test := range tests {
+		answer, n := test.answer, test.params.n
+
+		fmt.Printf(
+			"\nInput    : %v\nOutput   : %v\nExpected : %v\n",
+			n,
+			climbStairs(n),
+			answer,
+		)
 	}
+
+	fmt.Printf("\n")
 }

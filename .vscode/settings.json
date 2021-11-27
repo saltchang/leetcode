@@ -6,5 +6,7 @@
         "editor.wordWrap": "bounded",
         "editor.wordWrapColumn": 1000,
     },
-    "go.testFlags": []
+    "go.testFlags": [
+        "-v"
+    ]
 }
