@@ -6,9 +6,9 @@ countAndSay(1) = "1"
 
 countAndSay(n) is the way you would "say" the digit string from countAndSay(n-1), which is then converted into a different digit string.
 
-To determine how you "say" a digit string, split it into the minimal number of groups so that each group is a contiguous section all of the same character. 
+To determine how you "say" a digit string, split it into the minimal number of groups so that each group is a contiguous section all of the same character.
 
-Then for each group, say the number of characters, then say the character. To convert the saying into a digit string, replace the counts with a number and 
+Then for each group, say the number of characters, then say the character. To convert the saying into a digit string, replace the counts with a number and
 
 concatenate every saying.
 
@@ -55,6 +55,7 @@ countAndSay(4) = say "21" = one 2 + one 1 = "12" + "11" = "1211"
 ```cpp
 string countPrevious(string s)
 ```
+
 1. Record the current character.
 2. Count the continuous occurrences of it.
 3. If the next char != current character, add the count and char to the result string.
@@ -62,5 +63,5 @@ string countPrevious(string s)
 ```cpp
 string countAndSay(int n)
 ```
-1. Use a for loop to call *countPrevious*.
 
+1. Use a for loop to call *countPrevious*.

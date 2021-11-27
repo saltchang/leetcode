@@ -30,3 +30,9 @@ Explanation: There are three ways to climb to the top.
 ```text
 1 <= n <= 45
 ```
+
+## :memo: Note
+
+The result is same as the Fibonacci number.
+
+Use the Iterative Method to find the answer.

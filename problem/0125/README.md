@@ -6,8 +6,6 @@ it reads the same forward and backward. Alphanumeric characters include letters 
 
 Given a string s, return true if it is a palindrome, or false otherwise.
 
-
-
 **Example 1**
 
 ```text
@@ -54,4 +52,4 @@ s consists only of printable ASCII characters.
 1. Pointer1 starts from the begin of the string, pointer2 starts from the end.
 2. If the character is non-alphanumeric, move forward to bypass it.
 3. Check if pointer1 and pointer2 are next to each other or overlapped.
-4. Check if *pointer1 == *pointer2.
+4. Check if `*pointer1 == *pointer2`.

@@ -44,4 +44,3 @@ s consists of only lowercase English letters.
 1. Go through the string and store each charater occurrences in a hash table.
 2. Go through the string again and check for the occurence of the current character. Return the index if the count of s[i] is 1.
 3. Return -1 if non of characters appeared only once.
-

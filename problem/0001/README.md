@@ -36,3 +36,9 @@ Output: [0,1]
 4. **Only one valid answer exists.**
 
 **Follow-up**: Can you come up with an algorithm that is less than O(n2) time complexity?
+
+## :memo: Note
+
+Create a Hash table to memory if every number in the array has a pair number be found. (number + pair number = target)
+
+If pair number has been found, retun their index as the answer.
