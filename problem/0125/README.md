@@ -47,7 +47,7 @@ s consists only of printable ASCII characters.
 
 ## :memo: Note
 
-![leetcode_0125](https://user-images.githubusercontent.com/86006022/143676037-99c92cf8-e5e7-483d-a646-bfd3db6fc5f6.gif)
+![leetcode_0125](../../gif/leetcode_0125.gif)
 
 1. Pointer1 starts from the begin of the string, pointer2 starts from the end.
 2. If the character is non-alphanumeric, move forward to bypass it.
