@@ -52,6 +52,8 @@ countAndSay(4) = say "21" = one 2 + one 1 = "12" + "11" = "1211"
 
 ## :memo: Note
 
+![leetcode_0038](https://user-images.githubusercontent.com/86006022/143689620-0fa7bede-1d1f-4dd4-9f74-28bb99d6dfb3.gif)
+
 ```cpp
 string countPrevious(string s)
 ```
@@ -64,4 +66,4 @@ string countPrevious(string s)
 string countAndSay(int n)
 ```
 
-1. Use a for loop to call *countPrevious*.
+1. Use a for loop to call `countPrevious`.
