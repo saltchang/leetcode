@@ -2,7 +2,7 @@
 
  ![Go](https://img.shields.io/badge/language-Go-007d9c)&nbsp;
  ![C++](https://img.shields.io/badge/language-C++-004283)&nbsp;
- ![Progress](https://img.shields.io/badge/progess-6%20%2F%202082-sucess)&nbsp;
+ ![Progress](https://img.shields.io/badge/progess-8%20%2F%202082-sucess)&nbsp;
 [![License](https://img.shields.io/badge/license-MIT-a31f34)](./LICENSE)
 
 ## Run Test
@@ -20,6 +20,8 @@ go test ./problem/0070 -v
 | #      | Title                              | Solution        | Difficulty | Note                |
 |--------|------------------------------------|-----------------|------------|---------------------|
 | [0001] | Two Sum                            | [Go][0001_Go]   | Easy       | [:memo:][0001_Note] |
+| [0014] | Longest Common Prefix              | [C++][0014_C++] | Easy       | [:memo:][0014_Note] |
+| [0019] | Remove Nth Node From End of List   | [C++][0019_C++] | Medium     | [:memo:][0019_Note] |
 | [0038] | Count and Say                      | [C++][0038_C++] | Medium     | [:memo:][0038_Note] |
 | [0070] | Climbing Stairs                    | [Go][0070_Go]   | Easy       | [:memo:][0070_Note] |
 | [0125] | Valid Palindrome                   | [C++][0125_C++] | Easy       | [:memo:][0125_Note] |
@@ -32,6 +34,16 @@ go test ./problem/0070 -v
 [0001]: https://leetcode.com/problems/two-sum
 [0001_Note]: ./problem/0001/README.md#:memo:-note
 [0001_Go]: ./problem/0001/two_sum.go
+
+<!-- 0014 -->
+[0014]: https://leetcode.com/problems/longest-common-prefix
+[0014_Note]: ./problem/0014/README.md#:memo:-note
+[0014_C++]: ./problem/0014/longest_common_prefix.cpp
+
+<!-- 0019 -->
+[0019]: https://leetcode.com/problems/remove-nth-node-from-end-of-list
+[0019_Note]: ./problem/0019/README.md#:memo:-note
+[0019_C++]: ./problem/0019/remove_nth_node_from_end_of_list.cpp
 
 <!-- 0038 -->
 [0038]: https://leetcode.com/problems/count-and-say
