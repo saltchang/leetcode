@@ -33,6 +33,25 @@ go test ./problem/0070 -v
 
 [**:arrow_up: Back to Top**](#leetcode)
 
+## Contributors
+
+<a href="https://github.com/ccHSU13">
+    <img
+      src="https://avatars.githubusercontent.com/u/86006022"
+      alt="ccHSU13"
+      width="75px"
+      style="border-radius:50%;"
+    >
+</a>
+<a href="https://github.com/saltchang">
+    <img
+      src="https://avatars.githubusercontent.com/u/44324205"
+      alt="saltchang"
+      width="75px"
+      style="border-radius:50%;"
+    >
+</a>
+
 <!-- 0001 -->
 [0001]: https://leetcode.com/problems/two-sum
 [0001_Note]: ./problem/0001/README.md#:memo:-note
@@ -87,13 +106,3 @@ go test ./problem/0070 -v
 [0387]: https://leetcode.com/problems/first-unique-character-in-a-string
 [0387_Note]: ./problem/0387/README.md#:memo:-note
 [0387_C++]: ./problem/0387/first_unique_character_in_a_string.cpp
-
-## Contributors
-
-<a href="https://github.com/ccHSU13">
-    <img
-      src="https://avatars.githubusercontent.com/u/86006022?v=4"
-      alt="ccHSU13"
-      width="50px"
-    >
-</a>
