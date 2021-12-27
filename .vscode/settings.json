@@ -1,12 +1,21 @@
 {
-    "editor.formatOnSave": true,
-    "editor.formatOnSaveMode": "file",
-    "[markdown]": {
-        "editor.defaultFormatter": "darkriszty.markdown-table-prettify",
-        "editor.wordWrap": "bounded",
-        "editor.wordWrapColumn": 1000,
-    },
-    "go.testFlags": [
-        "-v"
-    ]
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": true
+  },
+  "editor.formatOnSave": true,
+  "editor.formatOnSaveMode": "file",
+  "eslint.nodePath": ".yarn/sdks",
+  "go.testFlags": ["-v"],
+  "prettier.prettierPath": ".yarn/sdks/prettier/index.js",
+  "search.exclude": {
+    "**/.pnp.*": true,
+    "**/.yarn": true
+  },
+  "typescript.enablePromptUseWorkspaceTsdk": true,
+  "typescript.tsdk": ".yarn/sdks/typescript/lib",
+  "[markdown]": {
+    "editor.defaultFormatter": "darkriszty.markdown-table-prettify",
+    "editor.wordWrap": "bounded",
+    "editor.wordWrapColumn": 1000
+  }
 }

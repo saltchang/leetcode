@@ -1,10 +1,13 @@
 {
-    "recommendations": [
-        "editorconfig.editorconfig",
-        "yzhang.markdown-all-in-one",
-        "bierner.markdown-preview-github-styles",
-        "darkriszty.markdown-table-prettify",
-        "davidanson.vscode-markdownlint",
-        "bierner.markdown-emoji"
-    ]
+  "recommendations": [
+    "arcanis.vscode-zipfs",
+    "bierner.markdown-emoji",
+    "bierner.markdown-preview-github-styles",
+    "darkriszty.markdown-table-prettify",
+    "davidanson.vscode-markdownlint",
+    "dbaeumer.vscode-eslint",
+    "editorconfig.editorconfig",
+    "esbenp.prettier-vscode",
+    "yzhang.markdown-all-in-one"
+  ]
 }
