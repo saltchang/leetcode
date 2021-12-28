@@ -3,7 +3,7 @@
 ![TypeScript](https://img.shields.io/badge/language-TypeScript-3178c6)&nbsp;
 ![Go](https://img.shields.io/badge/language-Go-007d9c)&nbsp;
 ![C++](https://img.shields.io/badge/language-C++-004283)&nbsp;
-![Progress](https://img.shields.io/badge/progess-11%20%2F%202082-sucess)&nbsp;
+![Progress](https://img.shields.io/badge/progess-12%20%2F%202082-sucess)&nbsp;
 [![License](https://img.shields.io/badge/license-MIT-a31f34)](./LICENSE)
 
 ## Run Test
