@@ -19,13 +19,13 @@ yarn
 Test all problems:
 
 ```bash
-yarn test
+yarn test --verbose false
 ```
 
 Test a single problem:
 
 ```bash
-yarn test problems/0001
+yarn test --verbose false problems/0001
 ```
 
 See [Jest CLI Options](https://jestjs.io/docs/cli#--verbose) for more information.
@@ -48,19 +48,20 @@ go test ./problems/0001/go -v
 
 **[:star: Starred Problems](https://leetcode.com/list/xoqag3yj) are highly recommended for practice.**
 
-|   #    | Title                              | Solutions                            | Difficulty |        Note         | Starred |
-| :----: | ---------------------------------- | ------------------------------------ | :--------: | :-----------------: | :-----: |
-| [0001] | Two Sum                            | [TypeScript][0001_ts], [Go][0001_go] |   [Easy]   | [:memo:][0001_note] | :star:  |
-| [0014] | Longest Common Prefix              | [C++][0014_c++]                      |   [Easy]   | [:memo:][0014_note] |         |
-| [0019] | Remove Nth Node From End of List   | [C++][0019_c++]                      |  [Medium]  | [:memo:][0019_note] | :star:  |
-| [0038] | Count and Say                      | [C++][0038_c++]                      |  [Medium]  | [:memo:][0038_note] |         |
-| [0070] | Climbing Stairs                    | [Go][0070_go]                        |   [Easy]   | [:memo:][0070_note] | :star:  |
-| [0098] | Validate Binary Search Tree        | [C++][0098_c++]                      |  [Medium]  | [:memo:][0098_note] | :star:  |
-| [0102] | Binary Tree Level Order Traversal  | [C++][0102_c++]                      |  [Medium]  | [:memo:][0102_note] | :star:  |
-| [0104] | Maximum Depth of Binary Tree       | [C++][0104_c++]                      |   [Easy]   | [:memo:][0104_note] | :star:  |
-| [0125] | Valid Palindrome                   | [C++][0125_c++]                      |   [Easy]   | [:memo:][0125_note] | :star:  |
-| [0206] | Reverse Linked List                | [Go][0206_go]                        |   [Easy]   | [:memo:][0206_note] | :star:  |
-| [0387] | First Unique Character in a String | [C++][0387_c++]                      |   [Easy]   | [:memo:][0387_note] |         |
+|   #    | Title                                          | Solutions                            | Difficulty |        Note         | Starred |
+|:------:|------------------------------------------------|--------------------------------------|:----------:|:-------------------:|:-------:|
+| [0001] | Two Sum                                        | [TypeScript][0001_ts], [Go][0001_go] |   [Easy]   | [:memo:][0001_note] | :star:  |
+| [0003] | Longest Substring Without Repeating Characters | [TypeScript][0003_ts]                |  [Medium]  | [:memo:][0003_note] | :star:  |
+| [0014] | Longest Common Prefix                          | [C++][0014_c++]                      |   [Easy]   | [:memo:][0014_note] |         |
+| [0019] | Remove Nth Node From End of List               | [C++][0019_c++]                      |  [Medium]  | [:memo:][0019_note] | :star:  |
+| [0038] | Count and Say                                  | [C++][0038_c++]                      |  [Medium]  | [:memo:][0038_note] |         |
+| [0070] | Climbing Stairs                                | [Go][0070_go]                        |   [Easy]   | [:memo:][0070_note] | :star:  |
+| [0098] | Validate Binary Search Tree                    | [C++][0098_c++]                      |  [Medium]  | [:memo:][0098_note] | :star:  |
+| [0102] | Binary Tree Level Order Traversal              | [C++][0102_c++]                      |  [Medium]  | [:memo:][0102_note] | :star:  |
+| [0104] | Maximum Depth of Binary Tree                   | [C++][0104_c++]                      |   [Easy]   | [:memo:][0104_note] | :star:  |
+| [0125] | Valid Palindrome                               | [C++][0125_c++]                      |   [Easy]   | [:memo:][0125_note] | :star:  |
+| [0206] | Reverse Linked List                            | [Go][0206_go]                        |   [Easy]   | [:memo:][0206_note] | :star:  |
+| [0387] | First Unique Character in a String             | [C++][0387_c++]                      |   [Easy]   | [:memo:][0387_note] |         |
 
 [**:point_up: Back to Top**](#problems)
 
@@ -99,6 +100,12 @@ go test ./problems/0001/go -v
 [0001_note]: ./problems/0001/README.md#:memo:-note
 [0001_ts]: ./problems/0001/ts/two_sum.ts
 [0001_go]: ./problems/0001/go/two_sum.go
+
+<!-- 0003 -->
+
+[0003]: https://leetcode.com/problems/longest-substring-without-repeating-characters
+[0003_note]: ./problems/0003/README.md#:memo:-note
+[0003_ts]: ./problems/0003/ts/longest_substring_without_repeating_characters.ts
 
 <!-- 0014 -->
 

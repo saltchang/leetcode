@@ -74,6 +74,7 @@ module.exports = {
       },
     ],
     'unicorn/prevent-abbreviations': 'off',
+    'unicorn/no-for-loop': 'off',
   },
   settings: {
     'import/resolver': {
