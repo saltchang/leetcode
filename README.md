@@ -3,7 +3,7 @@
 ![TypeScript](https://img.shields.io/badge/language-TypeScript-3178c6)&nbsp;
 ![Go](https://img.shields.io/badge/language-Go-007d9c)&nbsp;
 ![C++](https://img.shields.io/badge/language-C++-004283)&nbsp;
-![Progress](https://img.shields.io/badge/progess-12%20%2F%202082-sucess)&nbsp;
+![Progress](https://img.shields.io/badge/progess-13%20%2F%202082-sucess)&nbsp;
 [![License](https://img.shields.io/badge/license-MIT-a31f34)](./LICENSE)
 
 ## Run Test
@@ -55,6 +55,7 @@ go test ./problems/0001/go -v
 | [0014] | Longest Common Prefix                          | [C++][0014_c++]                      |   [Easy]   | [:memo:][0014_note] |         |
 | [0019] | Remove Nth Node From End of List               | [C++][0019_c++]                      |  [Medium]  | [:memo:][0019_note] | :star:  |
 | [0038] | Count and Say                                  | [C++][0038_c++]                      |  [Medium]  | [:memo:][0038_note] |         |
+| [0041] | First Missing Positive                         | [TypeScript][0041_ts]                |   [Hard]   | [:memo:][0041_note] |         |
 | [0070] | Climbing Stairs                                | [Go][0070_go]                        |   [Easy]   | [:memo:][0070_note] | :star:  |
 | [0098] | Validate Binary Search Tree                    | [C++][0098_c++]                      |  [Medium]  | [:memo:][0098_note] | :star:  |
 | [0102] | Binary Tree Level Order Traversal              | [C++][0102_c++]                      |  [Medium]  | [:memo:][0102_note] | :star:  |
@@ -124,6 +125,12 @@ go test ./problems/0001/go -v
 [0038]: https://leetcode.com/problems/count-and-say
 [0038_note]: ./problems/0038/README.md#:memo:-note
 [0038_c++]: ./problems/0038/cpp/count_and_say.cpp
+
+<!-- 0041 -->
+
+[0041]: https://leetcode.com/problems/first-missing-positive
+[0041_note]: ./problems/0041/README.md#:memo:-note
+[0041_ts]: ./problems/0041/ts/first_missing_positive.ts
 
 <!-- 0070 -->
 
