@@ -34,22 +34,16 @@ Output: 1
 
 **Constraints**
 
-```text
-1 <= s.length <= 2 * 105
-s consists only of printable ASCII characters.
-```
+- The number of nodes in the tree is in the range ![0, 104]!.
+- `-100 <= Node.val <= 100`
 
 **Related Topics**
 
-```text
 1. Tree
 2. Depth-First Search
 3. Breadth-First Search
 4. Binary Tree
-```
 
 ## :memo: Note
 
-1. Get left depth and right depth.
-2. Compare left and right depth to get the maximum, return max depth+1.
-3. Recursive method.
+Recursively get the maximun depth of lef tree and right tree.
