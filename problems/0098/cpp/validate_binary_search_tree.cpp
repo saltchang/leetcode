@@ -12,17 +12,12 @@
 class Solution {
 public:
     bool isValidSub(TreeNode* node, TreeNode* min=NULL, TreeNode* max=NULL) {
-        if (node == NULL)
-            return true;
+        if (node == NULL) return true;
         
-        if (min && node->val <= min->val)
-            return false;
-        if (max && node->val >= max->val)
-            return false;
-        if (!isValidSub(node->left, min, node) || !isValidSub(node->right, node, max))
-            return false;
-        
-        return true;
+        if (min && node->val <= min->val) return false;
+        if (max && node->val >= max->val) return false;
+
+        return isValidSub(node->left, min, node) && isValidSub(node->right, node, max);
     }
     
     bool isValidBST(TreeNode* root) {

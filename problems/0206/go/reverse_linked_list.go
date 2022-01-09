@@ -1,7 +1,7 @@
 package solution
 
 import (
-	"github.com/saltchang/leetcode/structs"
+	structs "github.com/saltchang/leetcode/structures/go"
 )
 
 type ListNode = structs.ListNode

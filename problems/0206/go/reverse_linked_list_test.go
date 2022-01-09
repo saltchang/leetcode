@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"testing"
 
-	"github.com/saltchang/leetcode/structs"
+	structs "github.com/saltchang/leetcode/structures/go"
 )
 
 func Test_reverseList(t *testing.T) {

@@ -22,7 +22,7 @@ module.exports = {
       parser: '@typescript-eslint/parser',
       rules: {
         'no-undef': 'off',
-        '@typescript-eslint/no-unused-vars': 'warn',
+        '@typescript-eslint/no-unused-vars': 'off',
       },
     },
     {
@@ -76,6 +76,7 @@ module.exports = {
     ],
     'unicorn/prevent-abbreviations': 'off',
     'unicorn/no-for-loop': 'off',
+    'unicorn/no-null': 'off',
   },
   settings: {
     'import/resolver': {
