@@ -1,4 +1,4 @@
-import { TreeNode } from 'structures/ts/tree';
+import { TreeNode } from '../../../structures/ts/tree';
 
 const maxDepth = (root: TreeNode | null): number => {
   if (!root) return 0;

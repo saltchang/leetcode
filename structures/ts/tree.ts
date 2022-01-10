@@ -10,7 +10,9 @@ export class TreeNode {
   }
 }
 
-export class BST {
+export class BinarySearchTree {
+  // BST
+
   root: TreeNode | null;
 
   constructor(vals?: number | number[]) {
@@ -79,3 +81,35 @@ export class BST {
     console.log(result);
   };
 }
+
+export const DepthFirstSearch = {
+  preOrder: (root: TreeNode | null): TreeNode[] => {
+    if (!root) return [];
+    // Visit the current node
+    // Recursively traverse the current node's left subtree
+    // Recursively traverse the current node's right subtree
+    const leftSubTree = DepthFirstSearch.preOrder(root.left);
+    const rightSubTree = DepthFirstSearch.preOrder(root.right);
+    return [root, ...leftSubTree, ...rightSubTree];
+  },
+
+  inOrder: (root: TreeNode | null): TreeNode[] => {
+    if (!root) return [];
+    // Recursively traverse the current node's left subtree
+    // Visit the current node
+    // Recursively traverse the current node's right subtree
+    const leftSubTree = DepthFirstSearch.preOrder(root.left);
+    const rightSubTree = DepthFirstSearch.preOrder(root.right);
+    return [...leftSubTree, root, ...rightSubTree];
+  },
+
+  postOrder: (root: TreeNode | null): TreeNode[] => {
+    if (!root) return [];
+    // Recursively traverse the current node's left subtree
+    // Recursively traverse the current node's right subtree
+    // Visit the current node
+    const leftSubTree = DepthFirstSearch.preOrder(root.left);
+    const rightSubTree = DepthFirstSearch.preOrder(root.right);
+    return [...leftSubTree, ...rightSubTree, root];
+  },
+};

@@ -14,7 +14,8 @@
     "skipLibCheck": true,
     "strict": true,
     "target": "es5",
-    "baseUrl": "."
+    "baseUrl": ".",
+    "downlevelIteration": true
   },
   "include": ["**/*.ts"]
 }

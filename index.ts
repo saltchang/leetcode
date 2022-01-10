@@ -1,4 +1,4 @@
-import { BST } from './structures/ts/tree';
+import { BinarySearchTree as BST } from './structures/ts/tree';
 
 const tree = new BST([5, 1, 4, 3, 6]);
 

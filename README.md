@@ -1,30 +1,31 @@
 # [LeetCode](https://leetcode.com/problemset/all)
 
- ![TypeScript](https://img.shields.io/badge/language-TypeScript-3178c6)&nbsp;
- ![Go](https://img.shields.io/badge/language-Go-007d9c)&nbsp;
- ![C++](https://img.shields.io/badge/language-C++-004283)&nbsp;
- ![Progress](https://img.shields.io/badge/progess-13%20%2F%202082-sucess)&nbsp;
+![TypeScript](https://img.shields.io/badge/language-TypeScript-3178c6)&nbsp;
+![Go](https://img.shields.io/badge/language-Go-007d9c)&nbsp;
+![C++](https://img.shields.io/badge/language-C++-004283)&nbsp;
+![Progress](https://img.shields.io/badge/progess-13%20%2F%202082-sucess)&nbsp;
 [![License](https://img.shields.io/badge/license-MIT-a31f34)](./LICENSE)
 
 ## Problems
 
 **[:star: Starred Problems](https://leetcode.com/list/xoqag3yj) are highly recommended.**
 
-|   #    | Title                                          | Solutions                      | Difficulty |        Note         | Starred |
-|:------:|------------------------------------------------|--------------------------------|:----------:|:-------------------:|:-------:|
-| [0001] | Two Sum                                        | [TS][0001_ts], [Go][0001_go]   |   [Easy]   | [:memo:][0001_note] | :star:  |
-| [0003] | Longest Substring Without Repeating Characters | [TS][0003_ts]                  |  [Medium]  | [:memo:][0003_note] | :star:  |
-| [0014] | Longest Common Prefix                          | [C++][0014_cpp]                |   [Easy]   | [:memo:][0014_note] |         |
-| [0019] | Remove Nth Node From End of List               | [C++][0019_cpp]                |  [Medium]  | [:memo:][0019_note] | :star:  |
-| [0038] | Count and Say                                  | [C++][0038_cpp]                |  [Medium]  | [:memo:][0038_note] |         |
-| [0041] | First Missing Positive                         | [TS][0041_ts]                  |   [Hard]   | [:memo:][0041_note] |         |
-| [0070] | Climbing Stairs                                | [Go][0070_go]                  |   [Easy]   | [:memo:][0070_note] | :star:  |
-| [0098] | Validate Binary Search Tree                    | [TS][0098_ts], [C++][0098_cpp] |  [Medium]  | [:memo:][0098_note] | :star:  |
-| [0102] | Binary Tree Level Order Traversal              | [C++][0102_cpp]                |  [Medium]  | [:memo:][0102_note] | :star:  |
-| [0104] | Maximum Depth of Binary Tree                   | [TS][0104_ts], [C++][0104_cpp] |   [Easy]   | [:memo:][0104_note] | :star:  |
-| [0125] | Valid Palindrome                               | [C++][0125_cpp]                |   [Easy]   | [:memo:][0125_note] | :star:  |
-| [0206] | Reverse Linked List                            | [Go][0206_go]                  |   [Easy]   | [:memo:][0206_note] | :star:  |
-| [0387] | First Unique Character in a String             | [C++][0387_cpp]                |   [Easy]   | [:memo:][0387_note] |         |
+|   #    | Title                                                     | Solutions                      | Difficulty |        Note         | Starred |
+|:------:|-----------------------------------------------------------|--------------------------------|:----------:|:-------------------:|:-------:|
+| [0001] | Two Sum                                                   | [TS][0001_ts], [Go][0001_go]   |   [Easy]   | [:memo:][0001_note] | :star:  |
+| [0003] | Longest Substring Without Repeating Characters            | [TS][0003_ts]                  |  [Medium]  | [:memo:][0003_note] | :star:  |
+| [0014] | Longest Common Prefix                                     | [C++][0014_cpp]                |   [Easy]   | [:memo:][0014_note] |         |
+| [0019] | Remove Nth Node From End of List                          | [C++][0019_cpp]                |  [Medium]  | [:memo:][0019_note] | :star:  |
+| [0038] | Count and Say                                             | [C++][0038_cpp]                |  [Medium]  | [:memo:][0038_note] |         |
+| [0041] | First Missing Positive                                    | [TS][0041_ts]                  |   [Hard]   | [:memo:][0041_note] |         |
+| [0070] | Climbing Stairs                                           | [Go][0070_go]                  |   [Easy]   | [:memo:][0070_note] | :star:  |
+| [0098] | Validate Binary Search Tree                               | [TS][0098_ts], [C++][0098_cpp] |  [Medium]  | [:memo:][0098_note] | :star:  |
+| [0102] | Binary Tree Level Order Traversal                         | [C++][0102_cpp]                |  [Medium]  | [:memo:][0102_note] | :star:  |
+| [0104] | Maximum Depth of Binary Tree                              | [TS][0104_ts], [C++][0104_cpp] |   [Easy]   | [:memo:][0104_note] | :star:  |
+| [0105] | Construct Binary Tree from Preorder and Inorder Traversal | [TS][0105_ts]                  |  [Medium]  | [:memo:][0105_note] | :star:  |
+| [0125] | Valid Palindrome                                          | [C++][0125_cpp]                |   [Easy]   | [:memo:][0125_note] | :star:  |
+| [0206] | Reverse Linked List                                       | [Go][0206_go]                  |   [Easy]   | [:memo:][0206_note] | :star:  |
+| [0387] | First Unique Character in a String                        | [C++][0387_cpp]                |   [Easy]   | [:memo:][0387_note] |         |
 
 [**:point_up: Back to Problems**](#problems)
 
@@ -157,6 +158,12 @@ go test ./problems/0001/go -v
 [0104_note]: ./problems/0104/README.md#:memo:-note
 [0104_ts]: ./problems/0104/ts/maximum_depth_of_binary_tree.ts
 [0104_cpp]: ./problems/0104/cpp/maximum_depth_of_binary_tree.cpp
+
+<!-- 0105 -->
+
+[0105]: https://leetcode.com/problems/construct-binary-tree-from-preorder-and-inorder-traversal
+[0105_note]: ./problems/0105/README.md#:memo:-note
+[0105_ts]: ./problems/0105/ts/construct_binary_tree_from_preorder_and_inorder_traversal.ts
 
 <!-- 0125 -->
 

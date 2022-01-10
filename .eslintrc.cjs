@@ -12,9 +12,8 @@ module.exports = {
     'plugin:prettier/recommended', // prettier
     'plugin:jest/recommended', // jest
     'plugin:unicorn/recommended', // unicorn
-    'plugin:import/errors', // import
-    'plugin:import/warnings', // import
-    'plugin:import/typescript',
+    'plugin:import/recommended', // import
+    'plugin:import/typescript', // import
   ],
   overrides: [
     {
