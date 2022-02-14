@@ -90,11 +90,30 @@ go test ./problems/0001/go -v
 
 [github emoji cheat sheet]: https://github.com/ikatyang/emoji-cheat-sheet/blob/master/README.md
 
+<<<<<<< HEAD
 <!-- Difficulty -->
 
 [easy]: https://leetcode.com/problemset/all/?difficulty=EASY
 [medium]: https://leetcode.com/problemset/all/?difficulty=MEDIUM
 [hard]: https://leetcode.com/problemset/all/?difficulty=HARD
+=======
+| #      | Title                              | Solution        | Difficulty | Note                |
+|--------|------------------------------------|-----------------|------------|---------------------|
+| [0001] | Two Sum                            | [Go][0001_Go]   | Easy       | [:memo:][0001_Note] |
+| [0014] | Longest Common Prefix              | [C++][0014_C++] | Easy       | [:memo:][0014_Note] |
+| [0019] | Remove Nth Node From End of List   | [C++][0019_C++] | Medium     | [:memo:][0019_Note] |
+| [0038] | Count and Say                      | [C++][0038_C++] | Medium     | [:memo:][0038_Note] |
+| [0070] | Climbing Stairs                    | [Go][0070_Go]   | Easy       | [:memo:][0070_Note] |
+| [0098] | Validate Binary Search Tree        | [C++][0098_C++] | Medium     | [:memo:][0098_Note] |
+| [0102] | Binary Tree Level Order Traversal  | [C++][0102_C++] | Medium     | [:memo:][0102_Note] |
+| [0104] | Maximum Depth of Binary Tree       | [C++][0104_C++] | Easy       | [:memo:][0104_Note] |
+| [0125] | Valid Palindrome                   | [C++][0125_C++] | Easy       | [:memo:][0125_Note] |
+| [0147] | Insertion Sort List                | [C++][0147_C++] | Medium     | [:memo:][0147_Note] |
+| [0206] | Reverse Linked List                | [Go][0206_Go]   | Easy       | [:memo:][0206_Note] |
+| [0387] | First Unique Character in a String | [C++][0387_C++] | Easy       | [:memo:][0387_Note] |
+
+[**:arrow_up: Back to Top**](#leetcode)
+>>>>>>> 5c4fbb0 (add:0147 Insertion Sort List)
 
 <!-- 0001 -->
 
@@ -170,6 +189,11 @@ go test ./problems/0001/go -v
 [0125]: https://leetcode.com/problems/valid-palindrome
 [0125_note]: ./problems/0125/README.md#:memo:-note
 [0125_cpp]: ./problems/0125/cpp/valid_palindrome.cpp
+
+<!-- 0147 -->
+[0147]: https://leetcode.com/problems/insertion-sort-list
+[0147_Note]: ./problem/0147/README.md#:memo:-note
+[0147_C++]: ./problem/0147/insertion_sort_list.cpp
 
 <!-- 0206 -->
 
