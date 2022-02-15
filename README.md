@@ -3,7 +3,7 @@
 ![TypeScript](https://img.shields.io/badge/language-TypeScript-3178c6)&nbsp;
 ![Go](https://img.shields.io/badge/language-Go-007d9c)&nbsp;
 ![C++](https://img.shields.io/badge/language-C++-004283)&nbsp;
-![Progress](https://img.shields.io/badge/progess-13%20%2F%202082-sucess)&nbsp;
+![Progress](https://img.shields.io/badge/progess-16%20%2F%202082-sucess)&nbsp;
 [![License](https://img.shields.io/badge/license-MIT-a31f34)](./LICENSE)
 
 ## Problems
@@ -23,7 +23,9 @@
 | [0102] | Binary Tree Level Order Traversal                         | [C++][0102_cpp]                |  [Medium]  | [:memo:][0102_note] | :star:  |
 | [0104] | Maximum Depth of Binary Tree                              | [TS][0104_ts], [C++][0104_cpp] |   [Easy]   | [:memo:][0104_note] | :star:  |
 | [0105] | Construct Binary Tree from Preorder and Inorder Traversal | [TS][0105_ts]                  |  [Medium]  | [:memo:][0105_note] | :star:  |
+| [0118] | Pascal's Triangle                                         | [C++][0118_cpp]                |   [Easy]   | [:memo:][0118_note] |         |
 | [0125] | Valid Palindrome                                          | [C++][0125_cpp]                |   [Easy]   | [:memo:][0125_note] | :star:  |
+| [0147] | Insertion Sort List                                       | [C++][0147_cpp]                |  [Medium]  | [:memo:][0147_note] |         |
 | [0206] | Reverse Linked List                                       | [Go][0206_go]                  |   [Easy]   | [:memo:][0206_note] | :star:  |
 | [0387] | First Unique Character in a String                        | [C++][0387_cpp]                |   [Easy]   | [:memo:][0387_note] |         |
 
@@ -89,31 +91,6 @@ go test ./problems/0001/go -v
 <!-- Cheat Sheet -->
 
 [github emoji cheat sheet]: https://github.com/ikatyang/emoji-cheat-sheet/blob/master/README.md
-
-<<<<<<< HEAD
-<!-- Difficulty -->
-
-[easy]: https://leetcode.com/problemset/all/?difficulty=EASY
-[medium]: https://leetcode.com/problemset/all/?difficulty=MEDIUM
-[hard]: https://leetcode.com/problemset/all/?difficulty=HARD
-=======
-| #      | Title                              | Solution        | Difficulty | Note                |
-|--------|------------------------------------|-----------------|------------|---------------------|
-| [0001] | Two Sum                            | [Go][0001_Go]   | Easy       | [:memo:][0001_Note] |
-| [0014] | Longest Common Prefix              | [C++][0014_C++] | Easy       | [:memo:][0014_Note] |
-| [0019] | Remove Nth Node From End of List   | [C++][0019_C++] | Medium     | [:memo:][0019_Note] |
-| [0038] | Count and Say                      | [C++][0038_C++] | Medium     | [:memo:][0038_Note] |
-| [0070] | Climbing Stairs                    | [Go][0070_Go]   | Easy       | [:memo:][0070_Note] |
-| [0098] | Validate Binary Search Tree        | [C++][0098_C++] | Medium     | [:memo:][0098_Note] |
-| [0102] | Binary Tree Level Order Traversal  | [C++][0102_C++] | Medium     | [:memo:][0102_Note] |
-| [0104] | Maximum Depth of Binary Tree       | [C++][0104_C++] | Easy       | [:memo:][0104_Note] |
-| [0125] | Valid Palindrome                   | [C++][0125_C++] | Easy       | [:memo:][0125_Note] |
-| [0147] | Insertion Sort List                | [C++][0147_C++] | Medium     | [:memo:][0147_Note] |
-| [0206] | Reverse Linked List                | [Go][0206_Go]   | Easy       | [:memo:][0206_Note] |
-| [0387] | First Unique Character in a String | [C++][0387_C++] | Easy       | [:memo:][0387_Note] |
-
-[**:arrow_up: Back to Top**](#leetcode)
->>>>>>> 5c4fbb0 (add:0147 Insertion Sort List)
 
 <!-- 0001 -->
 
@@ -184,6 +161,11 @@ go test ./problems/0001/go -v
 [0105_note]: ./problems/0105/README.md#:memo:-note
 [0105_ts]: ./problems/0105/ts/construct_binary_tree_from_preorder_and_inorder_traversal.ts
 
+<!-- 0118 -->
+[0118]: https://leetcode.com/problems/pascals-triangle
+[0118_Note]: ./problems/0118/README.md#:memo:-note
+[0118_cpp]: ./problems/0118/cpp/pascals_triangle.cpp
+
 <!-- 0125 -->
 
 [0125]: https://leetcode.com/problems/valid-palindrome
@@ -192,8 +174,8 @@ go test ./problems/0001/go -v
 
 <!-- 0147 -->
 [0147]: https://leetcode.com/problems/insertion-sort-list
-[0147_Note]: ./problem/0147/README.md#:memo:-note
-[0147_C++]: ./problem/0147/insertion_sort_list.cpp
+[0147_Note]: ./problems/0147/README.md#:memo:-note
+[0147_cpp]: ./problems/0147/cpp/insertion_sort_list.cpp
 
 <!-- 0206 -->
 
