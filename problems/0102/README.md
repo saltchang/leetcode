@@ -39,3 +39,6 @@ The number of nodes in the tree is in the range [0, 2000].
 ```
 
 ## :memo: Note
+1. Use a `queue` to store nodes of the tree
+2. Get the size of the `queue` and run a while loop to push values to a `vector`, add children of `front`, and pop `front`
+3. Push the `vector` to the final vector result

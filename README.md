@@ -3,7 +3,7 @@
 ![TypeScript](https://img.shields.io/badge/language-TypeScript-3178c6)&nbsp;
 ![Go](https://img.shields.io/badge/language-Go-007d9c)&nbsp;
 ![C++](https://img.shields.io/badge/language-C++-004283)&nbsp;
-![Progress](https://img.shields.io/badge/progess-13%20%2F%202082-sucess)&nbsp;
+![Progress](https://img.shields.io/badge/progess-16%20%2F%202082-sucess)&nbsp;
 [![License](https://img.shields.io/badge/license-MIT-a31f34)](./LICENSE)
 
 ## Problems
@@ -23,7 +23,9 @@
 | [0102] | Binary Tree Level Order Traversal                         | [C++][0102_cpp]                |  [Medium]  | [:memo:][0102_note] | :star:  |
 | [0104] | Maximum Depth of Binary Tree                              | [TS][0104_ts], [C++][0104_cpp] |   [Easy]   | [:memo:][0104_note] | :star:  |
 | [0105] | Construct Binary Tree from Preorder and Inorder Traversal | [TS][0105_ts]                  |  [Medium]  | [:memo:][0105_note] | :star:  |
+| [0118] | Pascal's Triangle                                         | [C++][0118_cpp]                |   [Easy]   | [:memo:][0118_note] |         |
 | [0125] | Valid Palindrome                                          | [C++][0125_cpp]                |   [Easy]   | [:memo:][0125_note] | :star:  |
+| [0147] | Insertion Sort List                                       | [C++][0147_cpp]                |  [Medium]  | [:memo:][0147_note] |         |
 | [0206] | Reverse Linked List                                       | [Go][0206_go]                  |   [Easy]   | [:memo:][0206_note] | :star:  |
 | [0387] | First Unique Character in a String                        | [C++][0387_cpp]                |   [Easy]   | [:memo:][0387_note] |         |
 
@@ -89,12 +91,6 @@ go test ./problems/0001/go -v
 <!-- Cheat Sheet -->
 
 [github emoji cheat sheet]: https://github.com/ikatyang/emoji-cheat-sheet/blob/master/README.md
-
-<!-- Difficulty -->
-
-[easy]: https://leetcode.com/problemset/all/?difficulty=EASY
-[medium]: https://leetcode.com/problemset/all/?difficulty=MEDIUM
-[hard]: https://leetcode.com/problemset/all/?difficulty=HARD
 
 <!-- 0001 -->
 
@@ -165,11 +161,21 @@ go test ./problems/0001/go -v
 [0105_note]: ./problems/0105/README.md#:memo:-note
 [0105_ts]: ./problems/0105/ts/construct_binary_tree_from_preorder_and_inorder_traversal.ts
 
+<!-- 0118 -->
+[0118]: https://leetcode.com/problems/pascals-triangle
+[0118_Note]: ./problems/0118/README.md#:memo:-note
+[0118_cpp]: ./problems/0118/cpp/pascals_triangle.cpp
+
 <!-- 0125 -->
 
 [0125]: https://leetcode.com/problems/valid-palindrome
 [0125_note]: ./problems/0125/README.md#:memo:-note
 [0125_cpp]: ./problems/0125/cpp/valid_palindrome.cpp
+
+<!-- 0147 -->
+[0147]: https://leetcode.com/problems/insertion-sort-list
+[0147_Note]: ./problems/0147/README.md#:memo:-note
+[0147_cpp]: ./problems/0147/cpp/insertion_sort_list.cpp
 
 <!-- 0206 -->
 
