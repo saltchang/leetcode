@@ -3,7 +3,7 @@
 ![TypeScript](https://img.shields.io/badge/language-TypeScript-3178c6)&nbsp;
 ![Go](https://img.shields.io/badge/language-Go-007d9c)&nbsp;
 ![C++](https://img.shields.io/badge/language-C++-004283)&nbsp;
-![Progress](https://img.shields.io/badge/progess-16%20%2F%202082-sucess)&nbsp;
+![Progress](https://img.shields.io/badge/progess-17%20%2F%202082-sucess)&nbsp;
 [![License](https://img.shields.io/badge/license-MIT-a31f34)](./LICENSE)
 
 ## Problems
@@ -28,6 +28,7 @@
 | [0147] | Insertion Sort List                                       | [C++][0147_cpp]                |  [Medium]  | [:memo:][0147_note] |         |
 | [0206] | Reverse Linked List                                       | [Go][0206_go]                  |   [Easy]   | [:memo:][0206_note] | :star:  |
 | [0387] | First Unique Character in a String                        | [C++][0387_cpp]                |   [Easy]   | [:memo:][0387_note] |         |
+| [1768] | Merge Strings Alternately.                                | [C++][1768_cpp]                |   [Easy]   | [:memo:][1768_note] |         |
 
 [**:point_up: Back to Problems**](#problems)
 
@@ -188,3 +189,12 @@ go test ./problems/0001/go -v
 [0387]: https://leetcode.com/problems/first-unique-character-in-a-string
 [0387_note]: ./problems/0387/README.md#:memo:-note
 [0387_cpp]: ./problems/0387/cpp/first_unique_character_in_a_string.cpp
+
+<!-- 1768 -->
+
+[1768]: https://leetcode.com/problems/merge-strings-alternately
+[1768_note]: ./problems/1768/README.md#:memo:-note
+[1768_cpp]: ./problems/1768/cpp/merge_strings_alternately.cpp
+
+
+
